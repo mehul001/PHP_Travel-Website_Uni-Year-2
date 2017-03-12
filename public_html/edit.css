@@ -1,0 +1,176 @@
+html, body 
+{
+margin: 0px;
+}
+
+a:link 
+{
+color: black ;
+text-decoration: none; /* Removes the underline on hyper links*/
+}
+
+/* visited link */
+a:visited 
+{
+color: black ;
+}
+
+/* mouse over link 
+a:hover 
+{
+background-color: #00FFCC;
+}*/
+
+/* selected link */
+a:active 
+{
+color: black ;
+}
+
+nav {
+background-color: yellow;
+width: 15%;
+display:table-cell;
+
+text-align: left;
+}
+
+h1{
+margin: 0px auto;
+width:1024px;
+line-height:70px;
+text-align: center;
+background-color: lightgrey;
+font-family:Calibri, Verdana;
+font-size:40px;
+position : fixed;
+top : 0px;
+}
+
+footer {
+clear:both;
+background-color: lightgrey;
+text-align: center;
+font-family:Calibri, Verdana;
+margin: 0px auto;
+width:1024px;
+line-height:20px;
+}
+
+p {
+padding-top: 30px;
+font-size: 20px;
+}
+
+main {
+padding-top: 100px;	
+padding-bottom: 30px;	
+text-align: center;
+font-family:Calibri, Verdana;
+clear:both;
+font-size:20px;
+}
+
+td {
+width : 10px
+}
+
+.display_td{
+width : 50px;
+}
+
+tr:nth-child(even){
+background-color: #f2f2f2;
+}
+
+tr:hover{
+background-color: lightgreen;
+}
+
+th, td{
+padding: 15px;
+}
+
+.tr_colour{
+background-color: lightblue;
+}
+
+table {
+margin: 0px auto;
+}
+
+select {
+width : 175px;
+}
+
+textarea {
+width : 168px;
+height: 100px;
+resize :vertical;
+}
+
+body{
+width:1024px;
+margin: 0px auto;
+}
+
+.nav1{
+line-height:50px;
+background-color:lightblue; 
+width:1024px;
+float:left;
+font-family:Calibri, Verdana;
+font-weight: bold;
+list-style:none;
+position : fixed;
+top : 70px;
+}
+/*
+li{
+display: inline;
+margin: 0 35px;
+padding: 5px;
+font-size: 20px;
+}
+
+ul{
+list-style-type:none;
+float:left;
+}*/
+
+ul {
+list-style: none; 
+padding: 0px; 
+margin: 0px;
+}
+
+ul li {
+display: block;   
+float: left;
+}
+
+li ul {
+display: none;
+} /*Hides the Sub Menus Links*/
+
+ul li a {
+display: block;
+margin: 0 65px; 
+white-space: nowrap; 
+font-size: 23px;
+}
+
+li:hover ul {/*Sub Menus Appear on screen on Hoover*/
+display: inline; 
+position: absolute; 
+background: lightgreen;
+
+} 
+
+li:hover li {
+float: none;
+}
+
+
+
+
